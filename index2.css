@@ -1,0 +1,24 @@
+
+body{
+  padding:0;
+  margin:0;
+  font-family: serif;
+  color:#000;
+  font-size:20px;
+}
+  header{
+    background: #E6E6FA;
+    padding:10px 0;
+    font-family: 'Shantell Sans', cursive;
+    text-align: center;
+  }
+  main{
+    font-family: serif;
+    color:#000;
+    font-size:20px;
+  }
+  h3{
+    font-size: 17px;
+    text-align: center;
+    font-family: 'Shantell Sans', cursive;
+  }

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hi</title>
+  <link rel="stylesheet" href="index2.css">
+</head>
+<body>
+  <header>
+  <h2>Давайте познакомимся</h2>
+  </header>
+  <main>
+  <h3>Заполните анкету для знакомства</h3>
+  <fieldset>
+    <legend>Персональные данные</legend>
+    <ul>
+      <li>
+        <label for="name">ФИО:</label>
+        <input type="text" name="name" id="name" >
+      </li>
+      <li>
+        <label for="age">Возраст:</label>
+        <input type="number" name="age"  id="age" min="0" max="125">
+      </li>
+      <li><label for="sex">Пол</label>
+        <input type="text" name="sex"  id="sex">
+      </li>
+      <li><label for="data">Дата рождения</label>
+        <input type="data" name="data"  id="data">
+      </li>
+    </ul>
+
+  </fieldset>
+  <fieldset>
+    <legend>Контакты</legend>
+    <ul>
+      <li>
+        <label for="email">E-mail:</label>
+        <input type="email" name="mail" id="email" >
+      </li>
+      <li>
+        <label for="number">Телефон:</label>
+        <input type="tel" name="phone" id="number" maxlength="11">
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset>
+    <legend>Семейное положение</legend>
+    <ul>
+      <li>
+        <input type="checkbox" name="marital status" id="marital status" >
+        <label for="marital status">Замужем/женат</label>
+      </li>
+      <li>
+        <input type="checkbox" name="marital status" id="marital status" >
+        <label for="marital status">Незамужем/холостяк</label>
+      </li>
+      <li>
+        <input type="checkbox" name="intensive-courses" id="courses" >
+        <label for="marital status">В активном поиске</label>
+      </li>
+      <li>
+        <input type="checkbox" name="marital status" id="marital status">
+        <label for="marital status">В разводе</label>
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset>
+    <legend>Образование</legend>
+    <ul>
+      <li>
+        <input type="checkbox" name="intensive-courses" id="courses" >
+        <label for="courses">Учусь</label>
+      </li>
+      <li>
+        <input type="checkbox" name="intensive-courses" id="courses" >
+        <label for="courses">Уже отучился(лась)</label>
+      </li>
+      <li>
+        <input type="checkbox" name="intensive-courses" id="courses" >
+        <label for="courses">Прохожу курсы</label>
+      </li>
+      <li>
+        <input type="checkbox" name="books" id="books">
+        <label for="books">Читаю книги</label>
+      </li>
+      <li>
+        <input type="checkbox" name="video" id="video">
+        <label for="video">Смотрю видео</label>
+      </li>
+    </ul>
+  </fieldset>
+  <div>
+    <label for="message">О себе</label>
+    <textarea name="comment" placeholder="Расскажите обо всём, что для вас важно" id="message"></textarea>
+  </div>
+  <fieldset>
+
+  <div>
+    <button type="submit">Отправить</button>
+  </div>
+  </main>
+</body>
